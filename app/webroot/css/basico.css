@@ -1,0 +1,754 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ################################################## layouts/default.ctp ######################################################### */
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, Geneva, sans-serif;
+}
+
+div.contenedor_LayoutsDefault {
+	margin: 0 auto;
+	width:1200px;
+	
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault {
+
+}
+
+div.introduccion_LayoutsDefault {
+	background: url(../img/pagetop2.png) no-repeat;
+	height: 40px;
+	position: relative;
+	z-index: 55;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault h1.logo_LayoutsDefault {
+	height: 40px;
+	margin:0px;
+	overflow: hidden;
+	position: absolute;
+	width: 295px;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault a.title {
+	color:black;
+
+}
+
+
+/* Empiesa: Busca en el SexShop */
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault div.buscar_LayoutsDefault {
+	position: absolute;
+	top: 0;
+	left: 296px;
+	width: 380px;
+	line-height: 36px;
+	height: 40px;
+	font-size: 15px;
+	border-left: 1px solid #363a41;
+	padding-left: 8px;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault div.buscar_LayoutsDefault form {
+	padding: 0;
+	margin: 0;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault div.buscar_LayoutsDefault b {
+	color: #11949C;
+	float: left;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault div.buscar_LayoutsDefault input {
+	float: left;
+	margin: 8px 0 0 6px;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault div.buscar_LayoutsDefault input.campo_de_texto_LayoutsDefault {
+	background: #16171a;
+	border: 1px solid #333;
+	color: white;	
+	font-size: 12px;
+	padding: 4px;
+	width: 130px;
+}
+
+
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault div.buscar_LayoutsDefault input.boton_de_enviar_LayoutsDefault {
+	background: #16171a;
+	border: 1px solid #333;
+	font-size: 12px;
+	color: #bbb;
+	padding: 4px;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault div.buscar_LayoutsDefault input.boton_de_enviar_LayoutsDefault:hover {
+	background: #11949C;
+	color: black;
+	cursor:pointer;
+}
+
+/* Finaliza: Busca en el SexShop */
+
+
+/* Logo */
+.logo-LayoutsDefault{
+}
+
+/* Empiesa: Botones de inscrivete y entar al sitio */
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault a.entrar_LayoutsDefault, a.inscribete_LayoutsDefault {
+	font-size: 14px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 0 0 10px;
+	
+}
+
+span.hello-LayoutsDefault {
+	color: #11949C;
+	font-size: 14px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault a.entrar_LayoutsDefault {
+	border-left: 1px solid #363a41;
+	right: 0;
+	text-transform: capitalize;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault a.inscribete_LayoutsDefault {
+	right: 62px;
+	text-transform: capitalize;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault a.inscribete_LayoutsDefault:hover {
+	background: #11949C;
+	color: white;
+}
+
+div.contenedor_LayoutsDefault div.header_LayoutsDefault div.introduccion_LayoutsDefault a.entrar_LayoutsDefault:hover {
+	background: #11949C;
+	color: white;
+}
+
+/* Finaliza: Botones de inscrivete y entar al sitio */
+
+
+
+
+
+/* Empieza el mostador dimanico */
+
+div.contenedor_LayoutsDefault div.contenido_LayoutsDefault {
+	color: #222;
+	overflow:hidden;
+}
+
+div.contenedor_LayoutsDefault div.contenido_LayoutsDefault div.subtitulo_LayoutsDefault {
+	padding: 0.5em 0 0.2em 0.8em;
+	
+	color: #fff;
+	background: #424242;
+	text-shadow: #333 0 0 0;
+	margin: 0;
+	border-bottom:1px solid #C2C2C2;
+	border-top-left-radius: 6px 6px;
+	border-top-right-radius: 6px 6px;
+	overflow: hidden;
+}
+
+div.contenedor_LayoutsDefault div.contenido_LayoutsDefault div.subtitulo_LayoutsDefault a {
+	color: #fff;
+	text-decoration: none;
+}
+
+div.contenedor_LayoutsDefault div.contenido_LayoutsDefault h2.subtitulo_LayoutsDefault a:hover {
+	color: #fff;
+}
+
+
+
+div.central_LayoutsDefault {
+	border-right:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	width: 1198px;
+}
+div.pageshadow_LayoutsDefault {
+    background: url(../img/footer.png) no-repeat;
+    overflow:hidden;
+	height:16px;
+}
+div.pageshadow_LayoutsDefault {	
+	behavior: url(/css/iepngfix.htc);
+}
+
+
+/* ##################################################  users/index.ctp _UsersIndex     ############################################ */
+
+div.bloque_UsersIndex{
+	padding:10px;
+}
+
+/* Paging */
+
+/*	div.bloque_UsersIndex  */
+div.paginacion_bloque_UsersIndex{
+	width: 1146px;
+	overflow:hidden;
+	height:auto;
+	margin:0 auto;
+}
+
+/* div.bloque_UsersIndex */
+div.paginacion_bloque_UsersIndex div.caja_general_UsersIndex{ 
+ 
+	padding:1px 0px;
+	border-width: 1px 0px 1px 0px;
+	border-style: dotted;
+	border-color: #000;
+	overflow:hidden;
+	height:auto;
+}
+		
+/* div.bloque_UsersIndex */				  
+div.paginacion_bloque_UsersIndex div.caja_general_UsersIndex div.caja_isquierda_UsersIndex{ width:100px; float:left;}
+/* div.bloque_UsersIndex */
+div.paginacion_bloque_UsersIndex div.caja_general_UsersIndex div.caja_centrar_UsersIndex{ width:926px; float:left;}
+/* div.bloque_UsersIndex */
+div.paginacion_bloque_UsersIndex div.caja_general_UsersIndex div.caja_derecha_UsersIndex{ width:100px; float:right;}
+
+/*  */
+div.paginas_UsersIndex{ margin:0 auto;
+             width:200px;
+             overflow:hidden;
+	         height:auto;
+			 padding-top:8px;
+			 text-align:center;
+
+}
+
+.flecha {
+	padding: 6px;
+	text-decoration: none;
+	color: black;
+	background: #CCC;
+}
+
+.flecha:hover {
+	background: #11949C;
+	color: #fff;
+}
+
+.flecha_pagina_1 {
+	padding: 6px;
+	text-decoration: none;
+	color: #fff;
+	background: #333;
+}
+
+#prev {
+	float:left;
+}
+
+#next {
+	float:right;
+ 
+}
+/* Fin Paging */
+
+
+/* 1 */
+
+
+/* div.bloque_UsersIndex */
+div.productos_UsersIndex{
+	width:1168px;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box {
+	border: 1px dotted #333;
+	float: left;
+	height: 270px;
+	margin:10px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	width: 270px;
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box img {
+
+	border: none;
+
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box span.imagen_producto {
+	background: black url(../img/ico_cargando_270x270px.gif) no-repeat;
+	display: block;
+	width: 270px;
+	height: 270px;
+	
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box span.nombre_producto {
+	background: black;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	height: 22px;
+	opacity: 0.65;
+	position: absolute;
+	top: 0px;
+	width: 270px;
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box:hover span.nombre_producto {
+	background: #11949C; 
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box span.nombre_producto div.nombre_producto_margen{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box span.precio_y_calificacion {
+	background: black;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	height: 22px;
+	opacity: 0.65;
+	position: absolute;
+	top: 248px;
+	width: 270px;
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box:hover span.precio_y_calificacion {
+	background: #11949C;
+}
+
+/* div.bloque_UsersIndex div.productos_UsersIndex */
+a.box div.precio_y_calificacion_margen{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+/* fin 1 */  
+
+
+/* ##################################################  users/index.ctp _UsersIndex     ############################################ */
+
+
+
+
+
+/* ################################################## ProductsController view.ctp ######################################################### */
+div.bigbox{
+	padding:10px;
+	overflow: hidden;
+
+}
+
+div.box_ProductsView {
+	/* 1000px */
+	width: 1176px;
+	border:  1px solid #CCC;
+	text-decoration: none;
+	color: #333;
+	overflow: hidden;
+}
+
+
+
+div.box_ProductsView div.a_ProductsView{
+	overflow: hidden;
+}
+
+div.box_ProductsView div.a_ProductsView div.izquierda_ProductsView{
+	background: #000 url('/img/ico_cargando.gif') no-repeat; 
+	width: 490px;
+	height:370px;
+	float:left;
+}
+
+
+
+div.box_ProductsView div.a_ProductsView div.derecha_ProductsView{
+	float: right;
+	width: 686px;
+	/* 362 + 6 */
+	height:366px;	
+	border: 4px solid #333;
+	border-right:none;
+	border-top:none;
+	border-left:none;	
+	background:whiteSmoke;
+}
+
+div.box_ProductsView div.a_ProductsView div.derecha_ProductsView div.nombre_producto_ProductsView {
+	background: #000;
+	opacity: 0.65;
+	color: #fff;
+	font-family:  'Quicksand', sans-serif; font-size: 20px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	
+}
+
+div.box_ProductsView div.a_ProductsView div.derecha_ProductsView div.detalles_generales_ProductsView {
+	padding: 10px;
+	display: block;
+	font-size: 11px;
+	line-height: 13px;
+}
+	
+div.box_ProductsView div.a_ProductsView div.derecha_ProductsView div.detalles_generales_ProductsView div.opciones_ProductsView {
+	display: block;
+	padding: 10px;
+}
+
+div.box_ProductsView div.b_ProductsView{
+	overflow: hidden;
+	border-bottom: 4px solid #333;
+}
+
+div.box_ProductsView div.b_ProductsView ul{
+	list-style-type: none;
+}
+
+
+
+.thumb_ProductsView{
+	background: black url(../img/ico_cargando_120x120px.gif) no-repeat;
+	float:left;
+	border:1px #666 solid;
+	margin-left:10px;	
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div.box_ProductsView div.description_ProductsView{
+	padding:10px;
+
+}
+
+div.box_ProductsView div.description_ProductsView h2{
+	color:#11949C;
+	margin:0px;
+	margin-bottom:5px;
+}
+
+div.box_ProductsView div.preguntas_ProductsView{
+	padding:10px;
+}
+
+div.box_ProductsView div.preguntas_ProductsView h2{
+	color:#11949C;
+	margin:0px;
+	margin-bottom:10px;
+}
+
+div.box_ProductsView div.preguntas_ProductsView div.contenedor_pregunta_ProductsView{
+	
+	width:883px;
+	float:left;
+	overflow: hidden;
+	
+}
+
+div.pregunta_y_respuesta_ProductsView{
+	margin-bottom:7px;
+border: 1px solid #CCC;
+background: #EFEFEF;
+padding: 4px;
+	
+}
+
+/* bloque de preguntas */
+div.box_ProductsView div.preguntas_ProductsView div.contenedor_pregunta_ProductsView div.pregunta_y_respuesta_ProductsView div.pregunta_ProductsView{
+	border:1px dashed #333;
+	background: white;
+	padding:5px;
+	overflow: hidden;
+}
+
+
+
+div.box_ProductsView div.preguntas_ProductsView div.contenedor_pregunta_ProductsView div.pregunta_y_respuesta_ProductsView div.pregunta_ProductsView div.fecha_y_hora_ProductsView{
+	float:right;
+	border-left:1px dashed #333;
+	padding-left:4px;
+}
+
+div.box_ProductsView div.preguntas_ProductsView div.contenedor_pregunta_ProductsView div.pregunta_y_respuesta_ProductsView div.respuesta_ProductsView{
+	border:1px dashed #333;
+	border-top:none;
+	padding:5px;
+	overflow: hidden;
+}
+
+div.box_ProductsView:hover div.preguntas_ProductsView div.contenedor_pregunta_ProductsView div.pregunta_y_respuesta_ProductsView div.respuesta_ProductsView{
+	background:white;
+}
+
+div.box_ProductsView div.preguntas_ProductsView div.contenedor_pregunta_ProductsView div.pregunta_y_respuesta_ProductsView div.respuesta_ProductsView div.fecha_y_hora_ProductsView{
+	float:right;
+	border-left:1px dashed #333;
+	padding-left:4px;
+}
+
+/* Fin bloque de preguntas */
+div.box_ProductsView div.preguntas_ProductsView div.has_tu_ProductsView{
+	
+	padding:5px;
+	overflow: hidden;
+}
+
+div.box_ProductsView div.preguntas_ProductsView div.has_tu_ProductsView a.has_tu_pregunta_ProductsView{
+	border:1px dashed #333;
+	background:white;
+	padding:3px;
+}
+
+div.box_ProductsView div.preguntas_ProductsView div.has_tu_ProductsView a.has_tu_pregunta_ProductsView:hover{
+	background:#11949C;
+	border:1px dashed #333;
+	color:white;
+	cursor: pointer;
+}
+
+
+
+div.sidebars_container_ProductsView{
+	
+	width:251px;
+	overflow: hidden;
+	float:right;
+	
+}
+
+
+div.sidebars_title_ProductsView{
+	background: #000;
+	padding:5px;
+	opacity: 0.65;
+	color: #fff;
+	font-weight: bold;
+}
+
+div.sidebars_details_ProductsView{
+	padding:5px;
+	color:white;
+}
+
+div.sidebars_has_tu_ProductsView{
+	padding:5px;
+}
+
+div.sidebars_has_tu_ProductsView a.sidebars_has_tu_compra_ProductsView{
+	border:1px solid #333;
+	background:white;
+	padding:4px;
+	color:black;
+	-webkit-border-radius: 6px;	
+	text-decoration: none;
+}
+div.sidebars_has_tu_ProductsView a.sidebars_has_tu_compra_ProductsView:hover{
+	background:#33CCFF;
+	color:white;
+	cursor:pointer;
+	
+}
+
+
+div.sidebars_box_ProductsView{
+	background:#11949C;
+		border: 1px solid #333;
+}
+
+div.sidebars_box_2_ProductsView{
+	background:#11949C;
+		border: 1px solid #333;
+	
+}
+
+
+/* ################################################## ProductsController view.ctp ######################################################### */
+
+
+
+.product-list-container{
+	border: 2px solid #333;
+	overflow: hidden;
+	text-decoration: none;
+	height:120px;
+	border-bottom-left-radius: 6px 6px ;
+	border-bottom-right-radius: 6px 6px ;
+	border-top-left-radius: 6px 6px ;
+	border-top-right-radius: 6px 6px;
+	width:974px;
+}
+
+
+.product-image{
+	border-right: 1px solid black;
+	border-top-left-radius: 6px 6px;
+	border-bottom-left-radius: 6px 6px;
+}
+.product-name{
+	background: black;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	height: 22px;
+	opacity: 0.65;
+	border-top-right-radius: 6px 6px;
+	padding-left: 5px;
+	font-family:"Times New Roman",Georgia,Serif;
+	
+
+}
+
+.product-options{
+	font-size: 15px;
+	font-family:"Times New Roman",Georgia,Serif;
+	padding:5px;
+}
+
+.product-name:hover{
+	background: #65b9bf;
+}
+.produt-data a{
+	text-decoration: none;
+}
+
+/* ##################################################  ######################################################### */
+
+
+
+.product-purchases-container{
+	border: 2px solid #333;
+	overflow: hidden;
+	text-decoration: none;
+	height:120px;
+	border-bottom-left-radius: 6px 6px ;
+	border-bottom-right-radius: 6px 6px ;
+	border-top-left-radius: 6px 6px ;
+	border-top-right-radius: 6px 6px;
+	width:914px;
+}
+
+
+.product-purchases-image{
+	border-right: 1px solid black;
+	border-top-left-radius: 6px 6px;
+	border-bottom-left-radius: 6px 6px;
+}
+.product-purchases-name{
+	background: black;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	height: 22px;
+	opacity: 0.65;
+	border-top-right-radius: 6px 6px;
+	padding-left: 5px;
+	font-family:"Times New Roman",Georgia,Serif;
+	
+
+}
+
+.product-purchases-options{
+	font-size: 15px;
+	font-family:"Times New Roman",Georgia,Serif;
+	padding:5px;
+}
+
+.product-purchases-name:hover{
+	background: #65b9bf;
+}
+.produt-purchases-data a{
+	text-decoration: none;
+}
+.product-purchases-basic-data{
+	font-size: 15px;
+	font-family:"Times New Roman",Georgia,Serif;
+	padding:5px;
+}
+
+
+
+/* ##################################################  ######################################################### */
+
+
+
+.product-universal-container{
+	border: 2px solid #333;
+	overflow: hidden;
+	text-decoration: none;
+	height:120px;
+	border-bottom-left-radius: 6px 6px ;
+	border-bottom-right-radius: 6px 6px ;
+	border-top-left-radius: 6px 6px ;
+	border-top-right-radius: 6px 6px;
+}
+
+
+.product-universal-image{
+	border-right: 1px solid black;
+	border-top-left-radius: 6px 6px;
+	border-bottom-left-radius: 6px 6px;
+}
+.product-universal-name{
+	background: black;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	height: 22px;
+	opacity: 0.65;
+	border-top-right-radius: 6px 6px;
+	padding-left: 5px;
+	font-family:"Times New Roman",Georgia,Serif;
+	overflow: hidden;
+}
+
+.product-universal-options{
+	font-size: 15px;
+	font-family:"Times New Roman",Georgia,Serif;
+	padding:5px;
+	overflow: hidden;
+}
+
+.product-universal-name:hover{
+	background: #65b9bf;
+}
+
+
+

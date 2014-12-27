@@ -1,0 +1,127 @@
+
+.gist {
+  clear:both;
+}
+ 
+
+/* Horizontal  overflow: hidden; background: white; width: 1114px; */
+#mycarousel {
+  width:1154px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.ui-carousel-horizontal{
+	background: white;
+    border: 1px solid gray;
+}
+
+
+
+.ui-carousel-horizontal .ui-carousel-container {
+  float: left;
+  width: 1114px;
+  height: 212px;
+
+}
+
+.ui-carousel-horizontal .ui-carousel-container ul {
+	float:left;
+	height: 212px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.ui-img-container{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid gray;   
+    box-shadow: rgba(0, 0, 0, .2) 0 4px 16px;  
+    -webkit-box-shadow:rgba(0, 0, 0, .2) 0 4px 16px;  
+    -moz-box-shadow:rgba(0,0,0,.2) 0 4px 16px;
+}
+
+.ui-carousel-horizontal .ui-carousel-container ul li {
+  float:left;
+  width:212px;
+  height: 212px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+/* Vertical */
+.ui-carousel-vertical .ui-carousel-container {
+  float: left;
+  width: 100px;
+  height: 300px;
+}
+
+.ui-carousel-vertical .ui-carousel-container ul {
+  float:left;
+  width: 100px;
+}
+
+.ui-carousel-vertical .ui-carousel-container ul li {
+  float:left;
+  width:100px;
+  height: 100px;
+  list-style:none;
+  line-height: 100px;
+  font-size: 40px;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+
+.ui-carousel-horizontal .ui-carousel-prev a,  .ui-carousel-horizontal .ui-carousel-next a {
+  background: #6CF;
+  color:#FFF;
+  text-decoration:none;
+}
+
+.ui-carousel-horizontal .ui-carousel-prev a:hover,  .ui-carousel-horizontal .ui-carousel-next a:hover {
+  color:#6CF;
+  background: #C6F1FF;
+}
+
+.ui-carousel-horizontal .ui-carousel-prev,  .ui-carousel-horizontal .ui-carousel-next,
+.ui-carousel-horizontal .ui-carousel-prev a,  .ui-carousel-horizontal .ui-carousel-next a  {
+  float:left;
+  width: 20px;
+  height:212px;
+  line-height: 212px;
+  font-size: 20px;
+  text-align:center;
+	z-index: 200;
+	position: relative;
+}
+
+.ui-carousel-vertical .ui-carousel-prev a,  .ui-carousel-vertical .ui-carousel-next a {
+  color:#6CF;
+  text-decoration:none;
+  background: #C6F1FF;
+}
+
+.ui-carousel-vertical .ui-carousel-prev a:hover,  .ui-carousel-vertical .ui-carousel-next a:hover {
+  background: #6CF;
+  color:#FFF;
+}
+
+.ui-carousel-vertical .ui-carousel-prev,  .ui-carousel-vertical .ui-carousel-next,
+.ui-carousel-vertical .ui-carousel-prev a,  .ui-carousel-vertical .ui-carousel-next a  {
+  float:left;
+  height: 20px;
+  width:100px;
+  line-height: 20px;
+  font-size: 20px;
+  text-align:center;
+}
+
+.ui-state-disabled a{
+  background: #EEE !important;
+  color: #333 !important;
+  cursor: default;
+}
+

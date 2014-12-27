@@ -1,0 +1,28 @@
+.black_overlay{
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: whiteSmoke;
+	-moz-opacity: 0.6;
+	opacity:.6;
+	filter: alpha(opacity=60);
+		
+	position: fixed;
+	z-index:1001;
+}
+.white_content {
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	border: 1px solid gray;
+	background-color: white;
+	overflow: hidden;
+			
+	box-shadow:rgba(0, 0, 0, .2) 0 4px 16px;
+	-webkit-box-shadow:rgba(0, 0, 0, .2) 0 4px 16px;
+	-moz-box-shadow:rgba(0,0,0,.2) 0 4px 16px;
+			
+	position: fixed;
+	z-index:1002;
+}
